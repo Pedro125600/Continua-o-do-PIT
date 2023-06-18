@@ -1,0 +1,17 @@
+<form  action="back-end_registro/Registro.php" method="set">
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Página Inicial</title>
+</head>
+<body>
+    <h1>Bem-vindo, <?php echo $_SESSION['nome']; ?></h1>
+    <h2>Informações registradas:</h2>
+    <p>Nome: <?php echo $_SESSION['nome']; ?></p>
+    <p>Sobrenome: <?php echo $_SESSION['sobrenome']; ?></p>
+    <p>Email: <?php echo $_SESSION['email']; ?></p>
+    <p>Informação: <?php echo $_SESSION['info']; ?></p>
+    <p>Telefone: <?php echo $_SESSION['tel']; ?></p>
+    <p>CPF: <?php echo $_SESSION['cpf']; ?></p>
+</body>
+</html>
